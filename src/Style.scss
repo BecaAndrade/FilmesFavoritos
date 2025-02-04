@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    // border: solid green;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1A1A2E;
+    color: white;
+}
+
+main{
+    // border: solid 2px black;
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.primeirobox{
+    // border: solid red;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.segundobox{
+    // border: solid yellow;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+article{
+    // border: solid blue;
+    width: 25vw;
+    height: 94vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    h4{
+        // border: solid gray;
+        text-align: center;
+
+    }
+}
+
+.capa{
+    // border: solid purple;
+    width: 238.56px;
+    height: 374.47px;
+}
+
+.IMDB{
+    // border: solid yellow;
+}
